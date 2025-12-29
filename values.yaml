@@ -530,6 +530,7 @@ valkey-cluster:
   ## @param valkey-cluster.image.repository Image repository, eg. `bitnamilegacy/valkey-cluster`.
   image:
     repository: bitnamilegacy/valkey-cluster
+    tag: 8.1.3-debian-12-r3
 
   ## @param valkey-cluster.cluster.nodes Number of valkey cluster master nodes
   ## @param valkey-cluster.cluster.replicas Number of valkey cluster master node replicas
@@ -576,6 +577,7 @@ valkey:
   ## @param valkey.image.repository Image repository, eg. `bitnamilegacy/valkey`.
   image:
     repository: bitnamilegacy/valkey
+    tag: 8.1.3-debian-12-r3
 
   # ⚠️ The valkey charts do not work well with special characters in the password (<https://gitea.com/gitea/helm-chart/issues/690>).
   # Consider omitting such or open an issue in the Bitnami repo and let us know once this got fixed.
