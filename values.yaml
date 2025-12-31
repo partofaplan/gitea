@@ -169,7 +169,7 @@ ingress:
   pathType: Prefix
   annotations: {}
   hosts:
-    - host: git.example.com
+    - host: gitea.local
       paths:
         - path: /
   tls: []
